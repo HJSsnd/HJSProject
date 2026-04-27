@@ -1,11 +1,6 @@
 version: '3.9'
 
 services:
-  jumpnetapp:
-    build: ./JumpNetApp
-    container_name: jumpnetapp
-    ports:
-      - "3001:3000"
 
   clouddiskapp:
     build: ./CloudDiskApp
